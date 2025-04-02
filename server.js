@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-// Middleware para manejar JSON
+// Middleware para manejar JSO
 app.use(express.json());
 
 // Lista de productos en memoria
@@ -54,3 +54,5 @@ app.post('/products', (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor en http://localhost:${port}`);
 });
+
+//Julian Andres Pedraza Padilla
